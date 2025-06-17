@@ -1,0 +1,19 @@
+int z = 5;
+float y = 2.5;
+int x = z+y;
+imprimir(x);
+imprimir(y * 2);
+
+if (x > 3) {
+    imprimir("x es mayor que 3");
+} else {
+    imprimir("x es menor o igual a 3");
+}
+
+int i = 0;
+while (i < 3) {
+    imprimir(i);
+    i = i + 1;
+}
+
+resolver(2 * 3 + 4);

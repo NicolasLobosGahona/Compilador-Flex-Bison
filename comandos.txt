@@ -1,0 +1,9 @@
+Compilar:
+bison -dy compilador.y
+flex compilador.l
+
+Crear .exe:
+gcc lex.yy.c y.tab.c
+
+Ejecutar .exe:
+./a.exe < ejemplo.txt
