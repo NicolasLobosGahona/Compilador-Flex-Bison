@@ -32,9 +32,11 @@ bash
 ## Ejecucion
 
 Si se ejecuta con un txt:
+
   -/Compilador.exe < nombre_archivo.txt
 
 Si se ejecuta para el uso de la calculadora
+
   -./Compilador.exe
-  y mostrara el menu funcional de la calculadora
+ 
 
