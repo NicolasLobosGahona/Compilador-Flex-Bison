@@ -25,6 +25,7 @@ Este proyecto es una calculadora interactiva implementada en C++ que utiliza un 
 ## Compilación
 
 bash
+
 -flex -o lex.yy.cpp compiladorflex.l
 
 -bison -d -o compilador.tab.cpp compilador.y
