@@ -36,10 +36,10 @@ bash
 
 Si se ejecuta con un txt:
 
-  -/Compilador.exe < nombre_archivo.txt
+  --> ./Compilador.exe < nombre_archivo.txt
 
 Si se ejecuta para el uso de la calculadora:
 
-  -./Compilador.exe
+  --> ./Compilador.exe
  
 
