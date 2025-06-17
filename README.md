@@ -26,7 +26,9 @@ Este proyecto es una calculadora interactiva implementada en C++ que utiliza un 
 
 bash
 -flex -o lex.yy.cpp compiladorflex.l
+
 -bison -d -o compilador.tab.cpp compilador.y
+
 -g++ -o compilador compilador.tab.cpp lex.yy.cpp AST.cpp -std=c++11
 
 ## Ejecucion
@@ -35,7 +37,7 @@ Si se ejecuta con un txt:
 
   -/Compilador.exe < nombre_archivo.txt
 
-Si se ejecuta para el uso de la calculadora
+Si se ejecuta para el uso de la calculadora:
 
   -./Compilador.exe
  
